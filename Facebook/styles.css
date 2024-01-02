@@ -1,7 +1,7 @@
 /*Facebook image formatting*/
 img { 
   display:block;
-  width:275px;
+  width:260px;
   margin-left:auto;
   margin-right: auto;
 }
@@ -9,7 +9,7 @@ img {
 /*Basic fourm formatting*/
 fourm{
   display:block;
-  width:290px;
+  width:330px;
   margin-left: auto;
   margin-right:auto;
 }
@@ -27,7 +27,7 @@ div input{
 /*Text for email and password*/
 input{
   text-indent: 10px;
-  width:290px;
+  width:325px;
   height:40px;
   border-radius: 5px; /*round corners*/
   margin-top:10px;
@@ -37,13 +37,15 @@ input{
 /*White box outline for fourm*/
 div fourm{ 
   background-color: white;
-  width: 300px;
+  width: 330px;
   border: 0px white;
   padding: 30px;
   margin: 0px;
   margin-right: auto;
   margin-left:auto;
+  
   border-radius: 7px; /* round corners*/
+  box-shadow:0 0 5px 0.2em lightgray;
 }
 
 div label{
@@ -55,9 +57,9 @@ div label{
 p{
   display:blocks;
   margin-top:0px;
-  margin-left: 80px;
+  margin-left: 100px;
   margin-right:auto;
-  font-size:17px;
+  font-size:15px;
   
 }
 
@@ -67,14 +69,31 @@ p{
   font-size:19px;
   font-weight: bold;
   border:#3377ff;
-  width:295px;
+  width:330px;
  
 }
 .account{
   margin-top:15px;
-  font-size:15px;
-  margin-left:103px;
+  font-size:14px;
+  margin-left:110px;
   margin-right:auto;
+  
+}
+a{
+  color:  #006bb3;
+  text-decoration:none;
+  margin-left:11px;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+input.button:hover{
+  background-color:#1a66ff;
+  
+}
+input.new:hover{
+  background-color:#00b300;
   
 }
 fieldset{
@@ -111,4 +130,9 @@ fieldset{
 p span {
     background:#fff; 
     padding:0 15px;
+}
+
+div footer{
+
+  
 }
